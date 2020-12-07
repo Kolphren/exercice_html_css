@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png" />
+    <title>Philatélio_contacts</title>
+</head>
+<body>
+    <header>           
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Produits</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Contactez nous</h1>
+        <p>Une de demande particulière? <br>
+        Un problème avec votre commande? <br>
+        Une suggestion ou simplement un remerciement, n'éhsitez pas à nous contacter.
+        </p> <br>
+        <form action="./request.html">
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <div>
+                    <label for="name ">Nom :</label>
+                    <input type="text" placeholder="Nom" id="nom" name="nom">
+                </div>
+                <div>
+                    <label for="first_name">Prénom :</label>
+                    <input type="text" placeholder="Prénom" id="prenom" name="prenom">
+                </div>
+                <div>
+                    <label for="age">Age :</label>
+                    <input type="number" placeholder="Age" id="age" name="age" >
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" placeholder="aaa@gmail.com" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" placeholder="mot de passe" id="password"     name="password">
+                </div>
+                <div>
+                    <label for="message">Entrez votre message ici :</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message ici"></textarea>
+                </div>
+                <div>
+                    <input type="reset" value="réinitialiser">
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer" id="submit"> 
+                </div>
+        </fieldset>
+        </form>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <img id="copyright" src="./img/copyright.png" alt="">
+            <p>Copyright 2020 Philatélio</p>
+        </div>
+        <div class="logo">
+            <img id="logo" src="./img/facebook.png" alt="">
+            <img id="logo" src="./img/instagram.png" alt="">
+            <img id="logo" src="./img/twitter.png" alt="">
+            <img id="logo" src="./img/youtube.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
